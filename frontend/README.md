@@ -1,16 +1,45 @@
-# React + Vite
+# 📢 Notice APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Notice Board Web Application that allows users to create, manage, and view notices with authentication and authorization.
+The system consists of a React (Vite) frontend and a Node.js (Express) backend with MongoDB database.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_URL: [Add your deployment URL here]_
 
-## React Compiler
+🧠 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User authentication and authorization
+- Create, read, update, and delete notices
+- Secure JWT-based authentication
+- Password encryption with bcrypt
+- RESTful API integration
+- Responsive web interface
+- Real-time notice updates
 
-## Expanding the ESLint configuration
+🏗️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+
+- React (v19.2.0)
+- Vite (Rolldown)
+- JavaScript (ES6+)
+- HTML5, CSS3
+- Fetch API
+- ESLint
+
+**Backend**
+
+- Node.js
+- Express.js (v5.1.0)
+- MongoDB (Mongoose v8.19.3)
+- JWT (JSON Web Tokens)
+- bcryptjs (Password Hashing)
+- CORS
+- dotenv (Environment Variables)
+
+**Deployment**
+
+- Frontend: [Add hosting platform]
+- Backend: [Add hosting platform]
+- Database: MongoDB Atlas
